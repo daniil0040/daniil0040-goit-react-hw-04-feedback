@@ -29,11 +29,7 @@ const options = ['good','neutral','bad']
     }
   }
 
-const countTotalFeedback = () => {
-    return good + neutral + bad
- }
-
-    const totalFeedback = countTotalFeedback()
+    const totalFeedback = good + neutral + bad
   
     const countPositiveFeedbackPercentage = () => {
     return (good / totalFeedback * 100).toFixed(1)
